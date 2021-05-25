@@ -1,0 +1,16 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: rgb(80, 44, 44);
+
+body {
+    // single line comment
+    /*
+    multi line comment 1
+    other line
+    */
+    font: 100% $font-stack;
+    /*
+    multi line comment 2
+    other line
+    */
+    color: $primary-color;
+}
