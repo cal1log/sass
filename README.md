@@ -2,9 +2,14 @@
 
 [sass link](https://www.youtube.com/watch?v=t6K64tVRsLk&list=PLpP9FLMkNf55euqjAP_66mCq46HGqkJsM)
 
-## install
+# install
 
 ## sudo npm install -g sass
+
+# active watch sass
+
+## cd stylesheets
+## sass --watch main.scss:main.css
 
 
 ## lessons
