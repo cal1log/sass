@@ -1,6 +1,24 @@
 $font-stack:    Arial, sans-serif;
 $primary-color: rgb(80, 44, 44);
 
+// null
+$i-am-null: null;
+
+// boolean
+$i-am-true: true;
+$i-am-false: false;
+
+// number
+$a-number: 7;
+
+// string
+$name: 'Orlando';
+$full-name: 'Orlando' + 'Gomez';
+
+// color
+$venus: #998099;
+$color2: lighten(white, 15%);
+
 body {
     // single line comment
     /*
@@ -13,4 +31,7 @@ body {
     other line
     */
     color: $primary-color;
+
+    /*other color*/
+    background-color: $color2;
 }
